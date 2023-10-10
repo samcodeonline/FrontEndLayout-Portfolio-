@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.messageNotificer{
+    
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(62, 175, 198, 0.128);
+    color: rgb(25, 117, 191) ;
+}
+.ClipPathForNavIcon{
+    clip-path: circle(50% at 50% 50%);
+    background-color: rgba(13, 121, 75, 0.923);
+}
+
+.navHeader{
+    height: 110px;
+    box-shadow: 1px 1px 1px 0px  rgb(0, 0, 0);
+}
+
+.sideBarLeftImage{
+    background-color: rgba(62, 175, 198, 0.128) ;
+}
+
+.CommonGreyColor{
+    color: rgba(32, 32, 32, 0.357);
+}
+.CommonlightBlueBgColor{
+    background-color: rgba(62, 175, 198, 0.128) !important;
+}
+
+.CommonDarkBlueColor{
+    color: rgb(25, 117, 191)!important;
+}
+
+.StarIconSize{
+    /* padding: px !important; */
+    height: 14px;
+    width: 22px;
+}
+
+.SendMessageBtn{
+    background-color: rgba(162, 157, 157, 0.741)!important;
+}
+
+
+@media (min-width: 300px) and (max-width: 780px) {
+    .ResponsiveNavbarForm >i+input{
+        display: none;
+    }
+    .fa-magnifying-glass{
+    display: none !important;
+}
+.navResponsiveDropdownMenu{
+    background-color: rgba(30, 30, 84);
+    /* color: white !important; */
+}
+.DropdownMenuFontColor{
+    color: white !important;
+}
+
+.mainSectionResponsiveness{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100% !important;
+}
+
+.DisplayNoneResponsiveClassSmallScreen{
+    display: none !important;
+}
+
+  }
+  
+  @media (min-width: 780px) and (max-width:1202px) {
+.navbar-toggler-icon{
+    margin-inline: 30px;
+    
+  }
+  .ResponsiveNavbarForm >i+input{
+    display: none;
+}
+  .fa-magnifying-glass{
+    display: none !important;
+}
+
+.PersonNameResponsiveClass{
+    display: none !important;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .ContactInformation{
+      display: inline-block;
+      margin: 2px;
+
+    }
+}
+
+@media only screen and (min-width: 820px) {
+
+    
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .PersonNameResponsiveClass{
+    display: none !important;
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
